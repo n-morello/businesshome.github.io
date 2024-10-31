@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body {
+    margin: 0;
+    max-height:fit-content;
+    max-width:100%;
+}
+.logo {
+    height: 120px;
+}
+.Name {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+h1 {
+    font-family: "Merriweather";
+    font-weight:900;
+    font-size: 68.66pt;
+    margin: 0;
+    color: #fffded;
+}
+.name-words p {
+    margin: -10px 0 35px 0;
+    color: #fffded;
+    font-family: "kantumruy pro";
+}
+header nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+header nav ul .pages {
+    width: 180px;
+}
+header nav ul li a {
+    font-size: 24pt;
+    padding: 15px;
+    text-align: center;
+    max-width: 100%;
+    min-width: fit-content;
+}
+header nav ul li a:hover {
+    background-color: #5C906A;
+}
+#Order-Now {
+    font-size: 32pt;
+    font-style: bold;
+    background-color: #5C906A;
+    margin-bottom: 0;
+    padding: 15px 56px 23px 51px;
+    max-width: fit-content;
+}
+#Order-Now:hover {
+    background-color: #b4ccba;
+}
+a {
+    text-decoration: none;
+    color: #fffded;
+    font-family: "Kantumruy Pro";
+}
+header {
+    background-color: #0C5A21;
+    margin: 0;
+    padding: 25px;
+    padding-bottom: 5px;
+    max-width: 100%;
+    border-bottom: #5C906A solid;
+    border-width: 18px;
+}
+.hero {
+    background-color: #AF7074;
+    border-top: #88292F solid;
+    border-bottom: #88292F solid;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 25px 0px 45px 0px;
+}
+.hero-image {
+    max-height: 380px;
+    max-width: 420px;
+    padding: 62px 40px;
+}
+.hero-text {
+    margin: 0;
+    max-width: 35%;
+}
+.hero h2 {
+    font-size: 68.66pt;
+    color: #fffded;
+    -webkit-text-stroke: 3px #88292F;
+    margin: 0;
+}
+.hero p {
+    font-size: 24pt;
+    color: #88292F;
+    margin-bottom: 0;
+}
+.hero a {
+    background-color: #88292F;
+    font-size: 30pt;
+    margin: 0px;
+    padding: 25px;
+}
+.hero a:hover {
+    background-color: #dabdbf;
+}
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 12%;
+}
+.order h3 {
+    font-size: 48pt;
+    color: #88292F;
+    font-family: "Merriweather";
+}
+.order ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.order ul li a {
+    background-color: #A05459;
+    padding: 12pt 45px 12pt 45px;
+    font-size: 24pt;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.order ul li a:hover {
+    background-color: #dabdbf;
+}
+.menu {
+    margin: 0 32px 150px 32px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+} 
+.menu .menu-card {
+    position: relative;
+    height: 276px;
+    width: 294px;
+}
+.menu-card a {
+    font-family: "merriweather";
+    font-size: 48pt;
+    font-style: bold;
+    position:absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menu-card img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(80%);
+}
+.menu-card:hover {
+    filter: brightness(45%);
+}
+footer {
+    background-color: #88292F;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 25px 25px 50px 25px;
+    height: fit-content;
+    
+}
+footer p {
+    color: #fffded;
+    font-family: "Kantumruy Pro";
+    font-size: 14pt;
+    margin-bottom: 28px;
+}
+footer h4 {
+    color: #fffded;
+    font-family:"Merriweather";
+    font-size: 30pt;
+    margin: 0;
+    margin-left:5px;
+}
+footer img {
+height: 36pt;
+margin-right: 4px;
+}
+footer .business-hours {
+    height: fit-content;
+}
+footer .business-hours a {
+    text-align: center;
+    background-color: #0C5A21;
+    padding: 4%;
+    margin: 0px 0px 0px 125px; 
+}
+footer .business-hours a:hover {
+    background-color: #5C906A;
+}
